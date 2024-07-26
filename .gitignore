@@ -1,0 +1,98 @@
+.vscode
+media
+backend/ModeDetection/Data
+backend/postgres_data
+
+# Python/Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.sqlite3
+*.log
+.env
+*.env
+*.venv
+venv/
+
+# Next.js/TypeScript
+node_modules/
+.next/
+out/
+*.log
+*.tgz
+*.env
+*.env.local
+*.env.*.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pnp
+
+# PostgreSQL
+*.sql
+*.sqlite
+*.db
+*.db-journal
+*.dump
+*.backup
+*.pgpass
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Build output
+build/
+dist/
+
+# Ignore CSV files
+*.csv
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+
+
+# Ignore testing coverage
+webapp/coverage
+
+# misc
+*.pem
+
+# debug
+webapp/npm-debug.log*
+webapp/yarn-debug.log*
+webapp/yarn-error.log*
+
+# local env files
+webapp/.env.local
+webapp/.env.development.local
+webapp/.env.test.local
+.env.production.local
+
+# vercel
+.vercel
